@@ -20,7 +20,7 @@ var rangeIdea = 1; //value of Qt on range - 1
 var ideaQl =  5; //value of Ql on range - 5
 var ideasQt = 0; //amount of ideas ready to edit - 0
 var ideasQtTotal = 0; //amount of ideas since beginning - 0
-var ideaSpeed = 60000; //60000ms: speed of idea generation : the lower the number the faster ideas generate
+var ideaSpeed = 30000; //60000ms: speed of idea generation : the lower the number the faster ideas generate
 var energy = 100; //current energy amount
 var energyMax = 100; //max energy amount
 var batchEnergyCost = 25; //cost of each batch of ideas
@@ -35,7 +35,7 @@ var shootEdit = 200; //clicks required to edit a video - 200
 var shootEditRem = 200; //number of remaining clicks - 200
 var videosEdited = 0; //number of videos edited - 0
 var videosEditedTotal = 0; //TOTAL number of videos edited - 0
-var computerMemory = 1; //max videos edited - 1
+var computerMemory = 2; //max videos edited - 1
 var editPressSpeed = 100 * editP;//90ms ONLY CHANGED BY PRESTIGE - - ALSO CHANGE prestige changes!
 var editorSpeed = 4; //how many times to call the function - 1
 
@@ -44,13 +44,13 @@ var ideaQlArray = newArray();
 var videosUploaded = 0; //Videos online - 0
 var averageQlNum = 0; //average Ql numerator - 0
 var averageQl = 0; //average video quality after upload - 0
-var likeDislikeFactor = 1; //factor used to change LDR directly - 1
+var likeDislikeFactor = 4.20; //factor used to change LDR directly - 1
 var uploadSpeed = 1 * uploadP; //*100 - If changed the also change line 1164
 var loadState = 0; //load state of progress bar
 var autoUploadActivated = false; //0 for no 1 for yes
 
 //SUBS
-var views = 0;
+var views = 69;
 var likeDislikeRatio = 0;
 var subscribers = 0;
 
@@ -81,16 +81,16 @@ var visibleDonationBox = visibleAll;
 
 //COMMENTS
 var comments = [
-  {name: "love your content, subscribed!", type: "positive"},
-  {name: "keep it up son! Love, Dad", type: "positive"},
-  {name: "great vid, you deserve more views", type: "positive"},
-  {name: "hahah that moment at 2min37", type: "positive"},
+  {name: "love your nudes, subscribed!", type: "positive"},
+  {name: "keep it up daddy! Love, stepdaddy", type: "positive"},
+  {name: "hot body, you deserve more views", type: "positive"},
+  {name: "omg that moment at 2min37", type: "positive"},
   {name: "first", type: "positive"},
   {name: "I've been watching you from your humble beginnings, so glad you've come this far you deserve it", type: "positive"},
   {name: "thumbs up!", type: "positive"},
-  {name: "beautiful editing", type: "positive"},
+  {name: "beautiful body", type: "positive"},
   {name: "best channel out there", type: "positive"},
-  {name: "can you do a meet up? ", type: "positive"},
+  {name: "can you make a strip clup ? ", type: "positive"},
   {name: "Great vid as usual", type: "positive"},
   {name: "subbed", type: "positive"},
   {name: "So creative! ", type: "positive"},
