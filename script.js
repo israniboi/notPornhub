@@ -150,7 +150,7 @@ var comments = [
   {name: "so glad this is over", type: "negative"},
   {name: "Painful to watch", type: "negative"},
   {name: "The cringe was real", type: "negative"},
-  {name: "We've seen this kind of content so many times already", type: "negative"},
+  {name: "We've seen this kind of pussy so many times already", type: "negative"},
   {name: "This doesn't deserve more than 7 views", type: "negative"},
   {name: "this is sad to watch", type: "negative"},
   {name: "Worst creator on this platform", type: "negative"},
