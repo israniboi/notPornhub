@@ -20,7 +20,7 @@ var rangeIdea = 1; //value of Qt on range - 1
 var ideaQl =  5; //value of Ql on range - 5
 var ideasQt = 0; //amount of ideas ready to edit - 0
 var ideasQtTotal = 0; //amount of ideas since beginning - 0
-var ideaSpeed = 30000; //60000ms: speed of idea generation : the lower the number the faster ideas generate
+var ideaSpeed = 30000; //30000ms: speed of idea generation : the lower the number the faster ideas generate
 var energy = 100; //current energy amount
 var energyMax = 100; //max energy amount
 var batchEnergyCost = 25; //cost of each batch of ideas
@@ -258,7 +258,7 @@ var uploadProjects = [
 ];
 var subProjects = [
   ["Reply to comments","Reach 50 subscribers or 500 views","subscribers>=50 || views>=500","views+=200","Love you guys <span class='boldRed'>[+200 Views]</span>","0","0"],
-  ["Pimp your video intro","Reach 100 subscribers or 1.5k views","subscribers>=100 || views>=1500","views+=500","Don't make it a minute long though <span class='boldRed'>[+500 Views]</span>","0","0"],
+  ["Pimp your video intro","Reach 69 subscribers or 1.5k views","subscribers>=69 || views>=1500","views+=500","Don't make it a minute long though <span class='boldRed'>[+500 Views]</span>","0","0"],
   ["Break the piggy bank","Reach 150 subscribers or 4k views","subscribers>=150 || views>=4000","cashAppear()","Opening a bank account as we speak <span class='boldRed'>[Money Time]</span>","0","0"],
   ["SMASH THAT LIKE BUTTON","Reach 300 subscribers","subscribers>=300","views+=5000","Reminding never hurts <span class='boldRed'>[+5k Views]</span>","0","0"],
   ["Balcony conversation with Lana","Reach 1k subscribers","subscribers>=1000","subscribers=subscribers*2","Gotta rep that moustache <span class='boldRed'>[Doubled your subscribers]</span>","0","0"],
