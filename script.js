@@ -243,7 +243,7 @@ var shootEditProjects = [
 ];
 var uploadProjects = [
   ["Start uploading","Upload 1 video","videosUploaded>=1","analyticsAppear()","Now get more subs! 100M ain't that hard <span class='boldRed'>[Analytics appeared]</span>","story","That was easy, channelReplace is now live!"],
-  ["Upload videos from school","Upload 3 videos","videosUploaded>=3","upgradeUploadSpeed(2)","You read books while you're there <span class='boldRed'>[+100kB/s Upload Speed]</span>","0","0"],
+  ["Upload videos from school","Upload 3 videos","videosUploaded>=3","upgradeUploadSpeed(6)","You read books while you're there <span class='boldRed'>[+300kB/s Upload Speed]</span>","0","0"],
   ["Figure out how to use hotspot","Upload 15 videos & Pay $100","videosUploaded>=15 && cashAmount>=100","upgradeUploadSpeed(3);cashAmount-=100","Parents weren't please with the phone bill <span class='boldRed'>[+100kB/s Upload Speed & -$100]</span>","0","0"],
   ["Buy a sex toy","Upload 20 videos & Pay $500","videosUploaded>=20 && cashAmount>=500","upgradeUploadSpeed(4);cashAmount-=500","Old school but efficient <span class='boldRed'>[+100kB/s Upload Speed & -$500]</span>","0","0"],
   ["Convince parents WiFi isn't an NSA spying device","Upload 50 videos & Pay $2k","videosUploaded>=50 && cashAmount>=2000","upgradeUploadSpeed(7);cashAmount-=2000","Or is it..? <span class='boldRed'>[+300kB/s Upload Speed & -$2k]</span>","0","0"],
