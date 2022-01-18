@@ -262,7 +262,7 @@ var subProjects = [
   ["Break the piggy bank","Reach 150 subscribers or 4k views","subscribers>=150 || views>=4000","cashAppear()","Opening a bank account as we speak <span class='boldRed'>[Money Time]</span>","0","0"],
   ["SMASH THAT LIKE BUTTON","Reach 300 subscribers","subscribers>=300","views+=5000","Reminding never hurts <span class='boldRed'>[+5k Views]</span>","0","0"],
   ["Balcony conversation with Lana","Reach 1k subscribers","subscribers>=1000","subscribers=subscribers*2","Gotta rep that moustache <span class='boldRed'>[Doubled your subscribers]</span>","0","0"],
-  ["Portnhub Verified","Reach 5k subscribers","subscribers>=5000","Pornhub Verified =1;adAmountAppear()","Naked money is gonna be rolling in booooy <span class='boldRed'>[Ad Time]</span>","story","The dream just got a little closer to reality."],
+  ["Balcony conversation with Lana","Reach 1k subscribers","subscribers>=1000","subscribers=subscribers*2"," <span class='boldRed'>[Doubled your subscribers]</span>","0","0"],
   ["Write your titles in ALL CAPS","Reach 15k subscribers","subscribers>=15000","views+=200000","Those golden tips <span class='boldRed'>[+200k Views]</span>","0","0"],
   ["Spam your videos all over social media","Reach 20k subscribers","subscribers>=20000","views+=100000;LDRF(-0.1)","All your friends unsubbed, but it had to be done <span class='boldRed'>[-0.1 Popularity & +100k Views]</span>","0","0"],
   ["Apologize to your community for the spam","Reach 25k subscribers","subscribers>=25000","subscribers+=3000;LDRF(0.2)","Swallow your pride <span class='boldRed'>[+0.2 Popularity & +3k Subscribers]</span>","0","0"],
