@@ -292,7 +292,7 @@ var cashProjects = [
   ["Christmas","Reach 7k views","views>=7000","cashAmount+=80","Grandma's annual cheque is always appreciated <span class='boldRed'>[+$80]</span>","0","0"],
   ["Steal from mum's purse","Reach 10k views","views>=10000","cashAmount+=500","Sacrifices for the better good <span class='boldRed'>[+$500]</span>","0","0"],
   ["Steal from dad's wallet","Reach 15k views","views>=15000","cashAmount+=500","Ready for a whoppin' <span class='boldRed'>[+$500]</span>","0","0"],
-  ["Sly fox","Be a Pornhub Verified & Reach 6 average video quality","averageQl>=6 && youtubePartner==0","adLoadMax+=1","Nothing too intrusive for now... <span class='boldRed'>[+1 Ad Amount]</span>","story","channelReplace now entering the ad game..."],
+  ["Sly fox","Be a Pornhub Verified & Reach 6 average video quality","averageQl>=6","adLoadMax+=1","Nothing too intrusive for now... <span class='boldRed'>[+1 Ad Amount]</span>","story","channelReplace now entering the ad game..."],
   ["Loan from friends","Reach 6.3 average video quality","averageQl>=6.3","cashAmount+=2000","...and never pay them back <span class='boldRed'>[+$2k]</span>","0","0"],
   ["Greedy pig","Reach 1.5M views","views>=1500000","adLoadMax+=3","Those ads are getting kind of intrusive now <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
   ["Sell merch","Reach 2M views","views>=2000000","income+=1;incomeAppear();incomeUpdate()","That's all you wear from now on <span class='boldRed'>[+$1/s]</span>","story","Finally some stable income, you're gaining mum's trust"],
