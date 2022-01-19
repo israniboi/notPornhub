@@ -418,7 +418,7 @@ function bulbTimerOn() {
 
 function bulbTimerOff() {
   clearInterval(countDownTimer);
-  countDownNum = 60;
+  countDownNum = 30;
   document.getElementById("bulbCountDown").innerHTML = countDownNum;
 }
 
