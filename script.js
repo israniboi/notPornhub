@@ -122,7 +122,7 @@ var comments = [
   {name: "You know what, i might just start making videos myself!", type: "positive"},
   {name: "who cares about being first anyways", type: "positive"},
   {name: "Are you planning on starting a onlyfans", type: "positive"},
-  {name: "You new mic makes your voice so soothing, ASMR-like", type: "positive"},
+  {name: "You new mic makes your orgasm so soothing, ASMR-like", type: "positive"},
   {name: "More content please, i've already watched all your videos twice!", type: "positive"},
   {name: "I would be so cool if you created a gaming channel", type: "positive"},
   {name: "All your vids go in my favorites", type: "positive"},
