@@ -52,7 +52,7 @@ var autoUploadActivated = false; //0 for no 1 for yes
 //SUBS
 var views = 69;
 var likeDislikeRatio = 0;
-var subscribers = 0;
+var subscribers = 69;
 
 //CASH
 var adAmount = 0;
@@ -61,7 +61,7 @@ var adLoadMax = 1; //- 1
 var income = 0;
 var expenses = 0;
 var expensesComp = 0;
-var youtubePartner = 0; //0 for no 1 for yes
+var youtubePartner = 1; //0 for no 1 for yes
 
 //VISIBLE STATE ON LOAD - functions that change these var are located in PROJECTS
 var visibleAll = false;
@@ -228,7 +228,7 @@ var shootEditProjects = [
   ["Laptop upgrade","Edit 20 videos & Pay $500","videosEditedTotal>=20&&cashAmount>=500","shootEdit-=25;lessClicks(24);cashAmount-=500;clicksLeft()","Because tools make the man <span class='boldRed'>[-25 Clicks & -$500]</span>","0","0"],
   ["Hire an editor on Fiverr","Give your hand a break!","views>=0","expenses=1;autoEditAppear()","You'll pay him with exposure as well <span class='boldRed'>[AutoEditor Level 1 & -$1/s]</span>","0","0"],
   ["Delete old footage","Edit 30 videos","videosEditedTotal>=30","upgradeMemory(1)","You will live to regret that <span class='boldRed'>[+1 Memory]</span>","0","0"],
-  ["Watch a Final Cut tutorial","Edit 50 videos","videosEditedTotal>=50","shootEdit-=50;lessClicks(49);clicksLeft()","Thirty hours later, you're a master <span class='boldRed'>[-50 Clicks]</span>","0","0"],
+  ["Watch a Final Cut tutorial","Edit 69 videos","videosEditedTotal>=69","shootEdit-=50;lessClicks(49);clicksLeft()","Thirty hours later, you're a master <span class='boldRed'>[-50 Clicks]</span>","0","0"],
   ["Buy absurd amount of external hard drives","Pay $3k","cashAmount>=3000","upgradeMemory(2);cashAmount-=3000","It shall never be backed up <span class='boldRed'>[+2 Memory & -$3k]</span>","0","0"],
   ["Hire a 'professional' editor","Pay $10k & Reach 6.5 average video quality & 50k subscribers & 10M views","cashAmount>=10000&&averageQl>=6.5&&subscribers>=50000&&views>=10000000","upgradeEditorSpeed(6);expenses+=24;cashAmount-=10000","You met him in a bar... <span class='boldRed'>[AutoEditor Level 2 & -$10k & -$25/s]</span>","0","0"],
   ["1 month iCloud storage trial","Edit 200 videos & Pay $5k","videosEditedTotal>=200&&cashAmount>=5000","upgradeMemory(2);cashAmount-=5000","Forgot to unsubscribe one month later <span class='boldRed'>[+2 Memory & -$5k]</span>","0","0"],
@@ -260,14 +260,14 @@ var subProjects = [
   ["Reply to comments","Reach 50 subscribers or 500 views","subscribers>=50 || views>=500","views+=200","Love you guys <span class='boldRed'>[+200 Views]</span>","0","0"],
   ["Pimp your video intro","Reach 69 subscribers or 1.5k views","subscribers>=69 || views>=1500","views+=500","Don't make it a minute long though <span class='boldRed'>[+500 Views]</span>","0","0"],
   ["Break the piggy bank","Reach 150 subscribers or 4k views","subscribers>=150 || views>=4000","cashAppear()","Opening a bank account as we speak <span class='boldRed'>[Money Time]</span>","0","0"],
-  ["SMASH THAT LIKE BUTTON","Reach 300 subscribers","subscribers>=300","views+=5000","Reminding never hurts <span class='boldRed'>[+5k Views]</span>","0","0"],
+  ["SMASH THAT LIKE BUTTON","Reach 4200 subscribers","subscribers>=420","views+=5000","Reminding never hurts <span class='boldRed'>[+5k Views]</span>","0","0"],
   ["Balcony conversation with Lana","Reach 1k subscribers","subscribers>=1000","subscribers=subscribers*2","Gotta rep that moustache <span class='boldRed'>[Doubled your subscribers]</span>","0","0"],
   ["Balcony conversation with Lana","Reach 1k subscribers","subscribers>=1000","subscribers=subscribers*2"," <span class='boldRed'>[Doubled your subscribers]</span>","0","0"],
   ["Write your titles in ALL CAPS","Reach 15k subscribers","subscribers>=15000","views+=200000","Those golden tips <span class='boldRed'>[+200k Views]</span>","0","0"],
   ["Spam your videos all over social media","Reach 20k subscribers","subscribers>=20000","views+=100000;LDRF(-0.1)","All your friends unsubbed, but it had to be done <span class='boldRed'>[-0.1 Popularity & +100k Views]</span>","0","0"],
   ["Apologize to your community for the spam","Reach 25k subscribers","subscribers>=25000","subscribers+=3000;LDRF(0.2)","Swallow your pride <span class='boldRed'>[+0.2 Popularity & +3k Subscribers]</span>","0","0"],
   ["Write an email to your fave Pornstar","Reach 40k subscribers","subscribers>=40000","subscribers+=0","He never answered. What did you expect? <span class='boldRed'>[+Still your fave tho :'( ]</span>","0","0"],
-  ["Shoutout from Reily","Reach 50k subscribers","subscribers>=50000","LDRF(-0.2)","You got right into the neeeews <span class='boldRed'>[-0.2 Popularity]</span>","0","0"],
+  ["Shoutout from Reily","Reach 69k subscribers","subscribers>=69000","LDRF(-0.2)","You got right into the neeeews <span class='boldRed'>[-0.2 Popularity]</span>","0","0"],
   ["Donate to charity","Reach 55k subscribers","subscribers>=55000","visibleDonationBox = true;donationBoxAppear()","Pandas have souls mkay <span class='boldRed'>[Donation Box unlocked]</span>","story","The Keemstar haters are getting to your head. Perhaps donating could improve your image."],
   ["Shoutout from Mia","Reach 60k subscribers","subscribers>=60000","LDRF(0.1)","Will he ever take off his glasses? <span class='boldRed'>[+0.1 Popularity]</span>","0","0"],
   ["Master the art of thumbnails","Reach 100k subscribers","subscribers>=100000","views+=4000000","Bewbs in thumbnail seems to work... <span class='boldRed'>[+4M Views]</span>","story","Who would have thought channelReplace would reach six digits this soon?"],
