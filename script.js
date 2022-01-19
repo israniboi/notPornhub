@@ -1,4 +1,5 @@
-//GENERAL
+//GENERA
+//Leigbbtrvitrbigvtrbgihvfdbviebfivbtrbgr
 var testTimer = setInterval(testProjects,500);
 var checkChequeTimer = setInterval(donationButtonState, 500); //see charityBox.js
 var emptyArrayUsed = false;
