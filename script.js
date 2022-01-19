@@ -298,7 +298,7 @@ var cashProjects = [
   ["Sign up to a 'get rich quick' course","Reach 5M views","views>=5000000","cashAmount+=5000","Definitely wasn't worth your time <span class='boldRed'>[+$5k]</span>","0","0"],
   ["Eat instant noodles for a year","Reach 10M views","views>=10000000","cashAmount+=10000","Saved some of that cash <span class='boldRed'>[+$10k]</span>","0","0"],
   ["Cash cow","Reach 30M views","views>=30000000","adLoadMax+=3","At least make them skippable <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
-  ["Launch a Patreon","Reach 50M views","views>=50000000","income+=14;incomeUpdate()","Jack Conte 4 life <span class='boldRed'>[+$14/s]</span>","0","0"],
+  ["Launch an onlyfans","Reach 50M views","views>=50000000","income+=14;incomeUpdate()","Jack Conte 4 life <span class='boldRed'>[+$14/s]</span>","0","0"],
   ["Product placement","Reach 100M views","views>=100000000","cashAmount+=10000;subscribers-=50000","You hate that app, but it's worth the dough right? <span class='boldRed'>[+$10k & -50k Subscribers]</span>","0","0"],
   ["Adpocalypse","Reach 200M views","views>=200000000","adLoadMax+=3","You've made AdBlock a thing <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
   ["Sell overpriced ice-cream on the beach","Reach 500M views","views>=500000000","cashAmount+=15000","Supply and demand my friend <span class='boldRed'>[+$15k]</span>","0","0"],
