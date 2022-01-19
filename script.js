@@ -404,7 +404,7 @@ function upgradeEnergyBatch(num){
 
 var countDownNum; //discrete, hidden, camouflaged global variable, dont @ me
 function bulbTimerOn() {
-  countDownNum = 59;
+  countDownNum = 29;
   countDownTimer = setInterval(function(){
     if (countDownNum > 0) {
       document.getElementById("bulbCountDown").innerHTML = countDownNum;
