@@ -51,7 +51,7 @@ var loadState = 0; //load state of progress bar
 var autoUploadActivated = false; //0 for no 1 for yes
 
 //SUBS
-var views = 69;
+var views = 420;
 var likeDislikeRatio = 0;
 var subscribers = 69;
 
@@ -157,7 +157,7 @@ var comments = [
   {name: "Worst creator on this platform", type: "negative"},
   {name: "Impressed .. at how bad this is", type: "negative"},
   {name: "unsubscribing as i'm typing", type: "negative"},
-  {name: "how do u install Minecraft???", type: "negative"},
+  {name: "when i watch your videos my erections go away", type: "negative"},
   {name: "I had to watch this my eyes closed", type: "negative"},
   {name: "this is where awkwardness was born...", type: "negative"},
   {name: "all your videos are the same", type: "negative"},
@@ -202,10 +202,10 @@ var ideaProjects = [
   ["Start jacking off","Generate 1 idea","ideasQtTotal>=1","editAppear()","You can now edit videos <span class='boldRed'>[Edit appeared]</span>","story","Now let's edit your first ever video! Click & hold to edit."],
   ["Binge watch porntube","Generate 5 ideas","ideasQtTotal>=5","upgradeCreativity(1);ideaRangeMax(rangeIdea);setTimeout(function(){qualityJudge()},2000)","17 hours later, inspiration is flowing <span class='boldRed'>[+1 Creativity]</span>","0","0"],
   ["Wear glasses","Generate 10 ideas","ideasQtTotal>=10","upgradeEnergyBatch(5)","Looking clever makes you feel clever <span class='boldRed'>[-5 Energy Cost]</span>","story","It takes you less effort to come up with ideas - you're a creative now. "],
-  ["Invite a stripper over","Generate 20 ideas","ideasQtTotal>=20","upgradeCreativity(1);ideaRangeMax(rangeIdea)","You brainstorm until dawn <span class='boldRed'>[+1 Creativity]</span>","0","0"],
+  ["Invite a stripper over","Generate 20 ideas","ideasQtTotal>=20","upgradeCreativity(1);ideaRangeMax(rangeIdea)","You guys brainstorm until dawn <span class='boldRed'>[+1 Creativity]</span>","0","0"],
   ["Draw your dreams","Reach 5.3 average video quality","averageQl>=5.3","upgradeCreativity(1);ideaRangeMax(rangeIdea)","Imagination is a beautiful thing <span class='boldRed'>[+1 Creativity]</span>","0","0"],
   ["Get a new mattress","Generate 35 ideas","ideasQtTotal>=35","energyRegenRate+=1","Underrated birthday gift <span class='boldRed'>[+1 Regen Rate]</span>","story","channelReplace you're committed to this channel now, even birthday gifts are for the grind. "],
-  ["Watch the OGs of pornhub","Generate 45 ideas","ideasQtTotal>=45","upgradeCreativity(1);ideaRangeMax(rangeIdea)","Rhett and who? <span class='boldRed'>[+1 Creativity]</span>","0","0"],
+  ["Watch the OGs of pornhub","Generate 45 ideas","ideasQtTotal>=45","upgradeCreativity(1);ideaRangeMax(rangeIdea)","Brady and who? <span class='boldRed'>[+1 Creativity]</span>","0","0"],
   ["Jack off real fast","Generate 70 ideas","ideasQtTotal>=70","napAppear(),averageQl<=4","upgradeCreativity(10);ideaRangeMax(rangeIdea)","Surely Tim Ferris does this <span class='boldRed'>[Power Nap activated]</span>","story","You now fall asleep as soon as you hit 0 energy."],
   ["Take guitar lessons","Reach 1M views","views>=1000000","upgradeCreativity(2);ideaRangeMax(rangeIdea);creativeBlock()","Music channels seem to be a thing <span class='boldRed'>[+2 Creativity]</span>","story","Incredible channelReplace, one million people have watched your videos! That's more people than you can fathom. Suddenly, you crack under the pressure: you hit a creative block. Reach the next project to get your imagination back to normal! <span class='boldRed'>[Creativity = 1]</span>"],
   ["Finish Netflix","Generate 200 ideas","ideasQtTotal>=200","upgradeCreativity(3);ideaRangeMax(rangeIdea)","Get that inspo <span class='boldRed'>[+3 Creativity]</span>","0","0"],
