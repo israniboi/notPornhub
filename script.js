@@ -552,7 +552,7 @@ window.setInterval(function() {
 //calls comments every minute
 window.setInterval(function() {
   callComment();
-},120000);
+},1000);
 
 //saves every 5s
 window.setInterval(function() {
