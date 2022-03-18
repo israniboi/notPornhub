@@ -290,11 +290,11 @@ var subProjects = [
 var cashProjects = [
   ["Extra pocket money","Reach 5k views","views>=5000","cashAmount+=20","Mum was feeling generous <span class='boldRed'>[+$20]</span>","0","0"],
   ["Christmas","Reach 7k views","views>=7000","cashAmount+=80","Grandma's annual cheque is always appreciated <span class='boldRed'>[+$80]</span>","0","0"],
+   ["Sell merch","Reach 2M views","views>=2000000","income+=1;incomeAppear();incomeUpdate()","That's all you wear from now on <span class='boldRed'>[+$1/s]</span>","story","Finally some stable income, you're gaining mum's trust"],
   ["Steal from mum's purse","Reach 10k views","views>=10000","cashAmount+=500","Sacrifices for the better good <span class='boldRed'>[+$500]</span>","0","0"],
   ["Steal from dad's wallet","Reach 15k views","views>=15000","cashAmount+=500","Ready for a whoppin' <span class='boldRed'>[+$500]</span>","0","0"],
   ["Loan from friends","Reach 6.3 average video quality","averageQl>=6.3","cashAmount+=2000","...and never pay them back <span class='boldRed'>[+$2k]</span>","0","0"],
   ["Greedy pig","Reach 1.5M views","views>=1500000","adLoadMax+=3","Those ads are getting kind of intrusive now <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
-  ["Sell merch","Reach 2M views","views>=2000000","income+=1;incomeAppear();incomeUpdate()","That's all you wear from now on <span class='boldRed'>[+$1/s]</span>","story","Finally some stable income, you're gaining mum's trust"],
   ["Sign up to a 'get rich quick' course","Reach 5M views","views>=5000000","cashAmount+=5000","Definitely wasn't worth your time <span class='boldRed'>[+$5k]</span>","0","0"],
   ["Eat instant noodles for a year","Reach 10M views","views>=10000000","cashAmount+=10000","Saved some of that cash <span class='boldRed'>[+$10k]</span>","0","0"],
   ["Cash cow","Reach 30M views","views>=30000000","adLoadMax+=3","At least make them skippable <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
