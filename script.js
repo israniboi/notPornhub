@@ -302,7 +302,7 @@ var cashProjects = [
   ["Product placement","Reach 100M views","views>=100000000","cashAmount+=10000;subscribers-=50000","You hate that app, but it's worth the dough right? <span class='boldRed'>[+$10k & -50k Subscribers]</span>","0","0"],
   ["Adpocalypse","Reach 200M views","views>=200000000","adLoadMax+=3","You've made AdBlock a thing <span class='boldRed'>[+3 Ad Amount]</span>","0","0"],
   ["Sell overpriced ice-cream on the beach","Reach 500M views","views>=500000000","cashAmount+=15000","Supply and demand my friend <span class='boldRed'>[+$15k]</span>","0","0"],
-  ["Sell your rare Pokemon cards","Reach 1B views","views>=1000000000","cashAmount+=20000","Broke your heart <span class='boldRed'>[+$20k]</span>","0","0"],
+  ["Sell your rare nudes","Reach 1B views","views>=1000000000","cashAmount+=20000","Broke your heart <span class='boldRed'>[+$20k]</span>","0","0"],
   ["End of projects","","views<1","","Congratulations <span class='boldRed'>[]</span>","",""],
 ];
 
